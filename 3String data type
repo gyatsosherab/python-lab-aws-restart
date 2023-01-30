@@ -1,0 +1,40 @@
+"""
+110-[PF]-Lab - String data type
+"""
+
+"""
+Introducing the srting data type
+"""
+
+myString = "This is a strign."
+print(myString)
+
+print(type(myString))
+
+print(myString + " is of the type " + str(type(myString)))
+
+"""
+Working with string concatenation
+"""
+
+firstString = "water"
+secondString = "fall"
+thirdString = firstString + secondString
+print(thirdString)
+
+"""
+Working with input string
+"""
+
+name = input("What is your name? ")
+
+print(name)
+
+"""
+Formatting out strings
+"""
+
+color = input("What is your favorite color? ")
+animal = input("What is your favorite animal? ")
+
+print("{}, you like a {} {}!".format(name,color,animal))
