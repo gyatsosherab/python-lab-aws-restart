@@ -1,0 +1,67 @@
+"""
+109-[PF]-Lab - Numeric data types
+"""
+myValue=1
+
+print(myValue)
+
+print(type(myValue))
+
+print(str(myValue) + " is of the data type " + str(type(myValue)))
+
+"""
+Introducing the float data type
+"""
+
+myValue=3.14
+
+print(myValue)
+
+print(type(myValue))
+
+print(str(myValue) + " is of the data type " + str(type(myValue)))
+
+"""
+Introducing to complex data type
+"""
+
+myValue=5j
+
+print(myValue)
+
+print(type(myValue))
+
+print(str(myValue) + " is of the data type " + str(type(myValue)))
+
+"""
+Introducing the bool data type
+"""
+
+myValue=True
+
+print(myValue)
+
+print(type(myValue))
+
+print(str(myValue) + " is of the data type " + str(type(myValue)))
+
+myValue=False
+
+print(myValue)
+
+print(type(myValue))
+
+print(str(myValue) + " is of the data type " + str(type(myValue)))
+
+
+num1=5
+num2=2
+num3=0
+
+add = num1 + num2
+div = num1 / num2
+#diverror = num1 / num3
+
+print("Addition of two number is " + str(add))
+print("Division of two number is " + str(div))
+#print("Division error of two num is" + diverror)
